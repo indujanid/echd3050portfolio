@@ -58,6 +58,7 @@ h3 {
 }
 
 .navbar li {
+  float: left;
   font-size: 20px;
   font-family: 'Quicksand';
 }
