@@ -9,7 +9,6 @@ p {
 
 ul {
   font-family: 'Quicksand';
-  list-style: none;
   color: #f1f1f1af;
 }
 
@@ -49,7 +48,6 @@ h3 {
 */
 
 .navbar ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
