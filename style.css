@@ -2,12 +2,24 @@ body {
   background: #0A192F;
   color: #f1f1f1af;
 }
+
+p {
+  font-family: 'Quicksand';
+}
+
+ul {
+  font-family: 'Quicksand';
+  list-style: none;
+  color: #f1f1f1af;
+}
+
 h3 { 
   margin: 10px 0 30px 0;
   font-size: 20px;
   color: #fff;
 }
 
+/* 
 .navbar {
   margin-bottom: 0;
   background-color: #2d2d30;
@@ -17,7 +29,6 @@ h3 {
   opacity: 0.9;
 }
 
-/* 
 .navbar li a, .navbar .navbar-brand {
   color: #d5d5d5 !important;
 }
@@ -45,11 +56,9 @@ h3 {
   background-color: #0A192F;
   position: fixed;
   top: 0;
-  width: 95%;
 }
 
 .navbar li {
-  float: right;
   font-size: 20px;
 }
 
