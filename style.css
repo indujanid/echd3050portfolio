@@ -30,7 +30,7 @@ h5 {
 }
 
 strong {
-  color: #AFDCEC;
+  color: #43C6DB;
 }
 
 #work {
@@ -41,7 +41,7 @@ strong {
 
 .content ul li::before {
   content: "\2022";
-  color: #AFDCEC;
+  color: #43C6DB;
   font-weight: bold;
   display: inline-block; 
   width: 1em;
@@ -86,12 +86,12 @@ strong {
 }
 
 .navbar a:hover {
-  color: #AFDCEC;
+  color: #43C6DB;
 }
 
 .navbar li.active a {
-  color: #AFDCEC;
-  border: 2px solid #ADDFFF;
+  color: #43C6DB;
+  border: 2px solid #43C6DB;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
 }
