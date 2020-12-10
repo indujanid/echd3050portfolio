@@ -48,6 +48,20 @@ strong {
   margin-left: -1em;
 }
 
+.item {
+  flex: 400px;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  background-color: rgba(222, 87, 165, 0.2);
+}
+
+.item:hover {
+  top: -10px;
+}
+
 .navbar ul {
   list-style-type: none;
   margin: 0;
