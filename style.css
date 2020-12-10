@@ -9,6 +9,7 @@ p {
 
 ul {
   font-family: 'Quicksand';
+  list-style: none;
   color: #f1f1f1af;
 }
 
@@ -16,6 +17,40 @@ h3 {
   font-family: 'Quicksand';
   color: #f1f1f1af;
   text-align: center;
+}
+
+h4 { 
+  font-family: 'Quicksand';
+  color: #f1f1f1af;
+}
+
+h5 { 
+  font-family: 'Quicksand';
+  color: #f1f1f1af;
+}
+
+strong {
+  color: #de57a5;
+}
+
+#work {
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px 100px 50px 100px;
+}
+
+.tabcontent ul li::before {
+  content: "\2022";
+  color: #de57a5;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }
 
 .navbar ul {
