@@ -1,6 +1,6 @@
 body {
   background: #0C090A;
-  color: #f1f1f1af;
+  color: #f1f1f1;
 }
 
 p {
@@ -10,23 +10,23 @@ p {
 ul {
   font-family: 'Quicksand';
   list-style: none;
-  color: #f1f1f1af;
+  color: #f1f1f1;
 }
 
 h3 { 
   font-family: 'Quicksand';
-  color: #f1f1f1af;
+  color: #f1f1f1;
   text-align: center;
 }
 
 h4 { 
   font-family: 'Quicksand';
-  color: #f1f1f1af;
+  color: #f1f1f1;
 }
 
 h5 { 
   font-family: 'Quicksand';
-  color: #f1f1f1af;
+  color: #f1f1f1;
 }
 
 strong {
@@ -79,7 +79,7 @@ strong {
 
 .navbar li a {
   display: block;
-  color: #f1f1f1af;
+  color: #f1f1f1;
   text-align: center;
   padding: 20px 20px 20px 20px;
   text-decoration: none;
