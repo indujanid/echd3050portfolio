@@ -38,13 +38,13 @@ strong {
   min-height: 100vh;
 }
 
-.tabcontent {
+.expcontent {
   color: white;
   display: none;
   padding: 50px 100px 50px 100px;
 }
 
-.tabcontent ul li::before {
+.expcontent ul li::before {
   content: "\2022";
   color: #de57a5;
   font-weight: bold;
