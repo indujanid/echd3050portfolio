@@ -48,6 +48,7 @@ h3 {
 */
 
 .navbar ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -58,6 +59,7 @@ h3 {
 
 .navbar li {
   font-size: 20px;
+  font-family: 'Quicksand';
 }
 
 .navbar li a {
@@ -72,6 +74,6 @@ h3 {
   color: #de57a5;
 }
 
-.navbar a:active {
+.navbar li.active a {
   color: #de57a5;
 }
