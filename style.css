@@ -1,5 +1,5 @@
 body {
-  background: night;
+  background: #0C090A;
   color: #f1f1f1af;
 }
 
@@ -30,7 +30,7 @@ h5 {
 }
 
 strong {
-  color: light blue;
+  color: #ADDFFF;
 }
 
 #work {
@@ -41,7 +41,7 @@ strong {
 
 .content ul li::before {
   content: "\2022";
-  color: light blue;
+  color: #ADDFFF;
   font-weight: bold;
   display: inline-block; 
   width: 1em;
@@ -55,7 +55,7 @@ strong {
   position: relative;
   top: 0;
   transition: top ease 0.5s;
-  background-color: blue jay;
+  background-color: #2B547E;
 }
 
 .item:hover {
@@ -86,12 +86,12 @@ strong {
 }
 
 .navbar a:hover {
-  color: light blue;
+  color: #ADDFFF;
 }
 
 .navbar li.active a {
-  color: light blue;
-  border: 2px solid light blue;
+  color: #ADDFFF;
+  border: 2px solid #ADDFFF;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
 }
