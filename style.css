@@ -1,10 +1,9 @@
 body {
-  background-color: #2d2d30;
-  color: #bdbdbd;
+  background: #0A192F;
+  color: #f1f1f1af;
 }
 h3 { 
   margin: 10px 0 30px 0;
-  letter-spacing: 10px;
   font-size: 20px;
   color: #fff;
 }
@@ -18,23 +17,54 @@ h3 {
   opacity: 0.9;
 }
 
-/* Add a gray color to all navbar links */
+/* 
 .navbar li a, .navbar .navbar-brand {
   color: #d5d5d5 !important;
 }
 
-/* On hover, the links will turn white */
+
 .navbar-nav li a:hover {
   color: #fff !important;
 }
 
-/* The active link */
 .navbar-nav li.active a {
   color: #fff !important;
   background-color:#29292c !important;
 }
 
-/* Remove border color from the collapsible button */
 .navbar-default .navbar-toggle {
   border-color: transparent;
+}
+*/
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A192F;
+  position: fixed;
+  top: 0;
+  width: 95%;
+}
+
+.navbar li {
+  float: right;
+  font-size: 20px;
+}
+
+.navbar li a {
+  display: block;
+  color: #f1f1f1af;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #de57a5;
+}
+
+.navbar a:active {
+  color: #de57a5;
 }
