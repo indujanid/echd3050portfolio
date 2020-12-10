@@ -48,4 +48,7 @@ h3 {
 
 .navbar li.active a {
   color: #de57a5;
+  border: 2px solid #de57a5;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
