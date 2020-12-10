@@ -36,13 +36,8 @@ strong {
 #work {
   padding-top: 100px;
   min-height: 100vh;
+  padding: 20px 100px 20px 100px
 }
-
-/*.content {
-  color: white;
-  display: none;
-  padding: 50px 100px 50px 100px;
-}*/
 
 .content ul li::before {
   content: "\2022";
