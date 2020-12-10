@@ -4,6 +4,7 @@
   <title>final portfolio</title> 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -12,75 +13,45 @@
 
 <body>
   
- <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="index.html">RESUME</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li class="active"><a href="work.html">WORK EXPERIENCE</a></li>
-        <li><a href="certificates.html">CERTIFICATES</a></li>
-        <li><a href="honor.html">HONORS/AWARDS</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>  
+  <div class="navbar">
+        <ul>
+            <li><a href="index.html">Resume</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li class="active"><a href="work.html">Experience</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="honor.html">Honors/Awards</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>         
+  </div> 
 
-  <br>
-  <br>
-
-<h3 class="text-center">Work Experience</h3>
-
-<div class="container">
-<div class="card">
-  <div class="card-content">
-    <div class="row">
-      <div class="col s12 m2">
+<h3>Experience</h3>
+  
+<div id="experience">
+  <div id="macys" class="tabcontent">
         <p class="text-center">
           <img src="macys.png" alt="macys logo" height="50" width="50" />
         </p>
-      </div>
-      <div class="col s12 m10">
         <p class="text-center">
-          <span class="card-title">
             <a href="https://www.macys.com" class="teal-text hoverline">Macy's Systems and Technology</a>
-          </span>
         </p>
-      </div>
+        <hr>
+        <h4>Software Developer Intern <strong>@ Macy's</strong></h3>
+        <h5>Jun 2020 - Aug 2019</h4>
+        <ul>    
+          <li>Created and debuged reports using SQL developer with the reporting team.</li>
+          <li>Coded dashboards using Python to depict company transportation trends.</li>
+          <li>Conducted a time-series analysis of the company’s transportation costs using Python, Facebook Prophet, machine learning models using Scikit learn</li>
+        </ul>
+        <h4>Accomplishments: 1st place Hackathon Winner</h4>
+        <ul>
+            <li>Coded a web applicated with a team of interns that allows warehouse managers view how long inventory has
+            been in a warehouse and see if it must be moved to save in warehouse costs.</li>
+            <li>Wrote services using Node.js and Express to calculate how long products have been sitting in a
+            warehouse based on data retrieved from Google’s Big Query.</li>
+            <li>Created a dashboard using React which highlights which products must be dealt with immediately.</li>
+        </ul>
     </div>
-    <hr>
-    <div><h4><b>Software Developer Intern</b></h4></div>
-    <div>
-      <p>
-      <ul>
-        <li>Created and debuged reports using SQL developer with the reporting team.</li>
-        <li>Coded dashboards using Python to depict company transportation trends.</li>
-        <li>Conducted a time-series analysis of the company’s transportation costs using Python, Facebook Prophet, machine learning models using Scikit learn</li>
-      </ul>
-      </p>
-      <p>
-      Accomplishmets: 1st place Hackathon winner
-      <ul>
-        <li>Coded a web applicated with a team of interns that allows warehouse managers view how long inventory has
-        been in a warehouse and see if it must be moved to save in warehouse costs.</li>
-        <li>Wrote services using Node.js and Express to calculate how long products have been sitting in a
-        warehouse based on data retrieved from Google’s Big Query.</li>
-        <li>Created a dashboard using React which highlights which products must be dealt with immediately.</li>
-      </ul>
-      </p>
-      <p> Jun 2019-Aug 2019 | Johns Creek, GA</p>
-    </div>
-  </div>
 </div>
-  </div>
   
 </body>
   
