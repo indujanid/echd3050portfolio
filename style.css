@@ -38,11 +38,11 @@ strong {
   min-height: 100vh;
 }
 
-.content {
+/*.content {
   color: white;
   display: none;
   padding: 50px 100px 50px 100px;
-}
+}*/
 
 .content ul li::before {
   content: "\2022";
