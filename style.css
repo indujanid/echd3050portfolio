@@ -39,12 +39,8 @@ strong {
   padding: 20px 100px 20px 100px
 }
 
-.pic {
-  float: left;
-}
-
 .me{
-  float: right;
+  display:inline-block;
 }
 
 .content ul li::before {
