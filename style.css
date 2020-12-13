@@ -5,6 +5,7 @@ body {
 
 p {
   font-family: 'Quicksand';
+  font-size: 18px;
 }
 
 ul {
@@ -50,7 +51,6 @@ strong {
 .flex div:last-child {
   margin: 2rem;
   flex: 2;
-  font-size: 18px;
 }
 
 .content ul li::before {
