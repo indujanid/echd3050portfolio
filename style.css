@@ -39,6 +39,14 @@ strong {
   padding: 20px 100px 20px 100px
 }
 
+.pic {
+  float: left;
+}
+
+.me{
+  float: right;
+}
+
 .content ul li::before {
   content: "\2022";
   color: #43C6DB;
