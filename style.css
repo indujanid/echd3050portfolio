@@ -39,20 +39,6 @@ strong {
   padding: 20px 100px 20px 100px
 }
 
-.flex {
-  display: flex;
-}
-
-.flex div:first-child {
-  flex: 1;
-}
-
-.flex div:last-child {
-  margin: 2rem;
-  flex: 2;
-  font-size: 18px;
-}
-
 .content ul li::before {
   content: "\2022";
   color: #43C6DB;
