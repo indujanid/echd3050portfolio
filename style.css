@@ -39,8 +39,22 @@ strong {
   padding: 20px 100px 20px 100px
 }
 
-.me{
-  display:inline-block;
+#about img {
+  border: 5px solid #43C6DB;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex div:first-child {
+  flex: 1;
+}
+
+.flex div:last-child {
+  margin: 2rem;
+  flex: 2;
+  font-size: 18px;
 }
 
 .content ul li::before {
